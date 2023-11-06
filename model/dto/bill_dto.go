@@ -16,11 +16,11 @@ type BillRequestDto struct {
 		"customerId": "",
 		"billDetails": [
 			{
-				"products": { "id": "" },
+				"product": { "id": "" },
 				"qty": 1
 			},
 			{
-				"products": { "id": "" },
+				"product": { "id": "" },
 				"qty": 1
 			}
 		]

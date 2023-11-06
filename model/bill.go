@@ -5,8 +5,8 @@ import "time"
 type Bill struct {
 	Id          string       `json:"id"`
 	BillDate    time.Time    `json:"billDate"`
-	CustomerId  Customer     `json:"customerId"`
-	UserId      User         `json:"userId"` // employee
+	Customer    Customer     `json:"customer"`
+	User        User         `json:"userId"` // employee
 	BillDetails []BillDetail `json:"billDetails"`
 	CreatedAt   time.Time    `json:"createdAt"`
 	UpdatedAt   time.Time    `json:"updatedAt"`
@@ -15,7 +15,7 @@ type Bill struct {
 type BillDetail struct {
 	Id        string    `json:"id"`
 	BillId    string    `json:"billId"`
-	Products  []Product `json:"products"`
+	Product   Product   `json:"product"`
 	Qty       int       `json:"qty"`
 	Price     int       `json:"price"` // automatically get from product
 	CreatedAt time.Time `json:"createdAt"`
