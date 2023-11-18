@@ -33,7 +33,7 @@ func (b *BillController) createHandler(ctx *gin.Context) {
 func (b *BillController) getHandler(ctx *gin.Context) {
 	id := ctx.Param("id")
 	if id == "" {
-		common.SendErrorResponse(ctx, http.StatusBadRequest, "id can't be empty")
+		common.SendErrorResponse(ctx, http.StatusBadRequest, "Not found Id")
 		return
 	}
 

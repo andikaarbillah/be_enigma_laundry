@@ -25,7 +25,7 @@ func (s *Server) setupControllers() {
 func (s *Server) Run() {
 	s.setupControllers()
 	if err := s.engine.Run(s.host); err != nil {
-		log.Fatal("server can't run")
+		log.Fatal("masalah di server")
 	}
 }
 

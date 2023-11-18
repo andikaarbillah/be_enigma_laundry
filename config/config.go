@@ -14,9 +14,9 @@ type ApiConfig struct {
 type DbConfig struct {
 	Host     string
 	Port     string
-	Name     string
 	User     string
 	Password string
+	DbName   string
 	Driver   string
 }
 
@@ -36,13 +36,13 @@ func (c *Config) readConfig() error {
 	c.DbConfig = DbConfig{
 		Host:     os.Getenv("DB_HOST"),
 		Port:     os.Getenv("DB_PORT"),
-		Name:     os.Getenv("DB_NAME"),
 		User:     os.Getenv("DB_USER"),
 		Password: os.Getenv("DB_PASSWORD"),
+		DbName:   os.Getenv("DB_NAME"),
 		Driver:   os.Getenv("DB_DRIVER"),
 	}
 
-	if c.ApiPort == "" || c.Host == "" || c.Port == "" || c.Name == "" || c.User == "" {
+	if c.ApiPort == "" || c.Host == "" || c.Port == "" || c.User == "" || c.Password == "" || c.DbName == "" {
 		return errors.New("environment required")
 	}
 
