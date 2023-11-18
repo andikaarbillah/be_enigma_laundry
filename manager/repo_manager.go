@@ -1,6 +1,6 @@
 package manager
 
-import "enigmacamp.com/be-enigma-laundry/repository"
+import "be-enigma-laundry/repository"
 
 type RepoManager interface {
 	UserRepo() repository.UserRepository

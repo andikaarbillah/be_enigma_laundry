@@ -1,6 +1,6 @@
 package dto
 
-import "enigmacamp.com/be-enigma-laundry/model"
+import "be-enigma-laundry/model"
 
 type BillRequestDto struct {
 	Id          string             `json:"id"`

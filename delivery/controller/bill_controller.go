@@ -5,9 +5,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"enigmacamp.com/be-enigma-laundry/model/dto"
-	"enigmacamp.com/be-enigma-laundry/usecase"
-	"enigmacamp.com/be-enigma-laundry/utils/common"
+	"be-enigma-laundry/model/dto"
+	"be-enigma-laundry/usecase"
+	"be-enigma-laundry/utils/common"
 )
 
 type BillController struct {

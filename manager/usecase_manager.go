@@ -1,6 +1,6 @@
 package manager
 
-import "enigmacamp.com/be-enigma-laundry/usecase"
+import "be-enigma-laundry/usecase"
 
 type UseCaseManager interface {
 	UserUseCase() usecase.UserUseCase

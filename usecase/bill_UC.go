@@ -3,9 +3,9 @@ package usecase
 import (
 	"fmt"
 
-	"enigmacamp.com/be-enigma-laundry/model"
-	"enigmacamp.com/be-enigma-laundry/model/dto"
-	"enigmacamp.com/be-enigma-laundry/repository"
+	"be-enigma-laundry/model"
+	"be-enigma-laundry/model/dto"
+	"be-enigma-laundry/repository"
 )
 
 type BillUseCase interface {

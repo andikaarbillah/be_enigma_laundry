@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"enigmacamp.com/be-enigma-laundry/utils/model_util"
+	"be-enigma-laundry/utils/model_util"
 )
 
 func SendCreateResponse(ctx *gin.Context, description string, data any) {

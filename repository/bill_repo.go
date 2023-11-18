@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"time"
 
-	"enigmacamp.com/be-enigma-laundry/model"
+	"be-enigma-laundry/model"
 )
 
 type BillRepository interface {

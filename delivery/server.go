@@ -6,9 +6,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"enigmacamp.com/be-enigma-laundry/config"
-	"enigmacamp.com/be-enigma-laundry/delivery/controller"
-	"enigmacamp.com/be-enigma-laundry/manager"
+	"be-enigma-laundry/config"
+	"be-enigma-laundry/delivery/controller"
+	"be-enigma-laundry/manager"
 )
 
 type Server struct {

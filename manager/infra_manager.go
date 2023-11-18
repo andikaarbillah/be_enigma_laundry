@@ -6,7 +6,7 @@ import (
 
 	_ "github.com/lib/pq"
 
-	"enigmacamp.com/be-enigma-laundry/config"
+	"be-enigma-laundry/config"
 )
 
 type InfraManager interface {

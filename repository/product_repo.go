@@ -3,7 +3,7 @@ package repository
 import (
 	"database/sql"
 
-	"enigmacamp.com/be-enigma-laundry/model"
+	"be-enigma-laundry/model"
 )
 
 type ProductRepository interface {
